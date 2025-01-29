@@ -32,6 +32,13 @@ img {
   width: 80%;
 }
 
+.img1{
+  cursor: pointer;
+}
+.img2{
+  cursor: not-allowed;
+}
+
 footer {
   margin-top: 5%;
   color: #EEEEEE;

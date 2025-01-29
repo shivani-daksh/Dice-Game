@@ -1,5 +1,6 @@
 
-randomNumber1 = Math.floor(( Math.random() * 6 )) + 1;
+function playGame() {
+  randomNumber1 = Math.floor(( Math.random() * 6 )) + 1;
 
   document.querySelector(".left-dice img").setAttribute("src" , "./images/dice"+randomNumber1+".png");
 
@@ -19,6 +20,8 @@ else if (randomNumber2 > randomNumber1){
 }
 else {
   document.querySelector("h1").innerHTML = "Draw!😶" ;
+}
+
 }
 
 
